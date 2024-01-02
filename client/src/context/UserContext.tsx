@@ -8,6 +8,7 @@ interface IUserContextProviderProps {
  children: ReactNode;
 }
 
+// Authentication context provider
 export function UserContextProvider({ children }: IUserContextProviderProps) {
  const [loggedInUser, setLoggedInUser] = useState<string | null>(null);
  const [id, setId] = useState<string | null>(null);

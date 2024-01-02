@@ -9,6 +9,7 @@ export default function Chat() {
 
   }, []);
   
+  // websocket function
   const handleMessage = (e: MessageEvent<unknown>) => {
     console.log("new message", e);
   };
@@ -16,9 +17,14 @@ export default function Chat() {
 
   return (
     <div className="h-screen flex">
-      <div className="w-1/3 bg-white p-2">Contacts</div>
+      <div className="w-1/3 bg-white p-2">
+        {/* TODO:Contacts */}   
+        </div>
       <div className="w-2/3 bg-gray-300 p-2 flex flex-col">
-        <div className="flex-grow"></div>
+        <div className="flex-grow">
+          {/* TODO:message component */}
+        </div>
+        {/* message box */}
         <form className="flex space-x-2">
           <FormElement
             isInput

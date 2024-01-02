@@ -26,6 +26,7 @@ export default function Authentication() {
     setId(data.id);
   };
 
+  //login/signup page
   return (
     <div className="bg-gray-100 h-screen flex items-center justify-center">
       <form onSubmit={onFormSubmit} className="w-64">

@@ -11,6 +11,7 @@ type TElementTypes = {
   style?: string;
 };
 
+// Input or Textarea element?
 export default function FormElement({
   isInput,
   type,
